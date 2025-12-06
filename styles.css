@@ -1,0 +1,72 @@
+@import url('reset.css');
+@import url('font.css');
+*{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+p,h1,h2,ul,li{
+    color: white;
+}
+.navlink{
+    font-size: 18px;
+    color: white;
+}
+.alonep{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1488px;
+    height: 70px;
+    align-items: center;
+    padding: 0 28px;
+}
+.navbut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    width: fit-content;
+    height: 50px;
+    padding: 0 32px;
+    border-radius: 14px;
+    color: white;
+    background-color: blue;
+}
+.vacation{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    background-color: #18181B;
+    border-radius: 20px;
+    width: 1440px;
+    height: 240px;
+    gap:10px;
+    padding: 20px;
+    h1{
+        font-weight: 600;
+        font-size: 60px;
+        width: 1392px;
+        height: 60px;
+        padding-bottom: 40px;
+    }
+
+}
+.botstroke{
+    display: flex;
+    flex-direction: row;
+}
